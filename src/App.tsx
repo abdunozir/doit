@@ -14,6 +14,7 @@ import TeamSection from "./components/TeamSection";
 import FooterSection from "./components/FooterSection";
 import StatsSection from "./components/StatsSection";
 import IntegrationsSection from "./components/IntegrationsSection";
+import LogoCloud from "./components/ui/LogoCloud";
 
 const slugs = [
   "typescript",
@@ -154,6 +155,9 @@ function App() {
           </div>
         </div>
 
+        <div>
+          <LogoCloud />
+        </div>
         <div>
           <IntegrationsSection />
         </div>

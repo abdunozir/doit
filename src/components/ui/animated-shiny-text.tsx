@@ -1,10 +1,10 @@
-import type { ComponentPropsWithoutRef, CSSProperties, FC } from "react"
+import type { ComponentPropsWithoutRef, CSSProperties, FC } from "react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 export interface AnimatedShinyTextProps
   extends ComponentPropsWithoutRef<"span"> {
-  shimmerWidth?: number
+  shimmerWidth?: number;
 }
 
 export const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
@@ -35,5 +35,5 @@ export const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
     >
       {children}
     </span>
-  )
-}
+  );
+};
