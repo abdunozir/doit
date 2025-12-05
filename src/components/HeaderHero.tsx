@@ -16,28 +16,28 @@ export default function HeaderHero() {
         {/* Navigation Menu */}
         <nav className="hidden md:flex items-center space-x-8">
           <a
-            href="#features"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Features
-          </a>
-          <a
-            href="#solution"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Solution
-          </a>
-          <a
-            href="#pricing"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Pricing
-          </a>
-          <a
             href="#about"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
-            About
+            Biz haqimizda
+          </a>
+          <a
+            href="#courses"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Kurslarimiz
+          </a>
+          <a
+            href="#enroll"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Kursga yozilish
+          </a>
+          <a
+            href="#services"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Xizmatlar
           </a>
         </nav>
 

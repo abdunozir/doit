@@ -131,4 +131,20 @@
       inset 0 0 250px 100px rgba(0, 0, 0, 0.5),
       inset 0 0 400px 150px rgba(0, 0, 0, 0.2);
   }
+
+  @keyframes shiny-text {
+    0%,
+    90%,
+    100% {
+      background-position: calc(-100% - var(--shiny-width)) 0%;
+    }
+    30%,
+    60% {
+      background-position: calc(100% + var(--shiny-width)) 0%;
+    }
+  }
+
+  .animate-shiny-text {
+    animation: shiny-text 8s ease-in-out infinite;
+  }
 }
